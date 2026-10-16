@@ -2,14 +2,14 @@
 
 #root {
     --font-family: Rubik, Verdana, sans-serif;
-    --primary: rgb(115, 2, 12);
-    --primary-hover: black;
+    --primary: rgb(185, 35, 162);
+    --primary-hover: rgb(209, 122, 184);
     --color: white;
     --h1-color: var(--color);
     --h2-color: var(--color);
     --h3-color: var(--color);
-    --card-background-color: rgba(0, 0, 0, 0.8);
-    --card-sectionning-background-color: rgba(0, 0, 0, 0.8);
+    --card-background-color: rgba(209, 122, 184, 0.50);
+    --card-sectionning-background-color:rgba(209, 122, 184, 0.50);
     --form-element-active-border-color: var(--color);
     --form-element-placeholder-color: gray;
 }
@@ -24,7 +24,7 @@
 }
 
 #root h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0px;
 }
 
