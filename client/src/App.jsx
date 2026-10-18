@@ -10,12 +10,12 @@ import './App.css'
 const App = () => {
   let element = useRoutes([
     {
-      path: '/perfumes/new',
+      path: '/new',
       element: <CreatePerfume title='PERFUME CUSTOMIZER | Customize' />
     },
     {
       path:'/',
-      element: <ViewPerfumes title='PERFUME CUSTOMIZER | Custom Perfume' />
+      element: <ViewPerfumes title='PERFUME CUSTOMIZER | Home' />
     },
     {
       path: '/details/:id',

@@ -36,17 +36,16 @@ const PerfumeDetails = () => {
                     <h2> {perfume.perfume_name} </h2>
                 </header>
                 <ul>
-                    <h3> {perfume.description} </h3>
                     <p> <strong> Top Note:</strong> {perfume.top_note} </p>
                     <p> <strong> Heart Note: </strong> {perfume.heart_note} </p>
                     <p> <strong> Base Note: </strong>{perfume.base_note} </p>
                     <p> <strong> Extra Touch: </strong> {perfume.extra_touch || 'None'} </p>
-                    <p> <strong> Price: </strong>{perfume.price} </p>
+                    <p> <strong> Price: $</strong>{perfume.price} </p>
                 </ul>
-                <ul>
-                    <Link to={`/edit/${perfume.id}}`} role='button'> Edit Details </Link>
+                <div className="perfume-buttons">
+                    <Link to={`/edit/${perfume.id}`} role='button'> Edit Details </Link>
                     <button onClick={() => handleDelete(perfume.id)}> Delete </button>
-                </ul>
+                </div>
             </article>
         </div>
     )
